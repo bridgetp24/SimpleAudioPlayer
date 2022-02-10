@@ -14,6 +14,7 @@
 		814CA69727B5940600E8DD53 /* SimpleAudioPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CA69627B5940600E8DD53 /* SimpleAudioPlayerTests.swift */; };
 		814CA6A127B5940600E8DD53 /* SimpleAudioPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CA6A027B5940600E8DD53 /* SimpleAudioPlayerUITests.swift */; };
 		814CA6A327B5940600E8DD53 /* SimpleAudioPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CA6A227B5940600E8DD53 /* SimpleAudioPlayerUITestsLaunchTests.swift */; };
+		814CA6B027B59DD100E8DD53 /* blackbird.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 814CA6AF27B59DD100E8DD53 /* blackbird.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		814CA69C27B5940600E8DD53 /* SimpleAudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		814CA6A027B5940600E8DD53 /* SimpleAudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAudioPlayerUITests.swift; sourceTree = "<group>"; };
 		814CA6A227B5940600E8DD53 /* SimpleAudioPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAudioPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		814CA6AF27B59DD100E8DD53 /* blackbird.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = blackbird.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				814CA68527B593FE00E8DD53 /* SimpleAudioPlayerApp.swift */,
 				814CA68727B593FE00E8DD53 /* ContentView.swift */,
+				814CA6AF27B59DD100E8DD53 /* blackbird.m4a */,
 				814CA68927B5940600E8DD53 /* Assets.xcassets */,
 				814CA68B27B5940600E8DD53 /* Preview Content */,
 			);
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				814CA6B027B59DD100E8DD53 /* blackbird.m4a in Resources */,
 				814CA68D27B5940600E8DD53 /* Preview Assets.xcassets in Resources */,
 				814CA68A27B5940600E8DD53 /* Assets.xcassets in Resources */,
 			);

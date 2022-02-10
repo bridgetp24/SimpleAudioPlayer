@@ -11,11 +11,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
-            Text("Hello, world!")
-                .padding()
-            Text("How is it going")
-                .padding()
-        }.border(Color.green)
+            HStack{
+                Text("Hello, world!")
+                    .padding()
+                Text("How is it going")
+                    .padding()
+            }.border(.red)
+            Spacer()
+        }.border(Color.black)
     }
 }
 
