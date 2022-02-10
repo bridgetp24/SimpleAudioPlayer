@@ -6,11 +6,16 @@
 //
 
 import SwiftUI
+/**This is a simple audio player application */
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Text("Hello, world!")
+                .padding()
+            Text("How is it going")
+                .padding()
+        }.border(Color.green)
     }
 }
 
