@@ -6,19 +6,59 @@
 //
 
 import SwiftUI
+import AVKit
 /**This is a simple audio player application */
 
 struct ContentView: View {
+    @State var myPlayer:AVAudioPlayer?
+
     var body: some View {
-        VStack{
-            HStack{
-                Text("Hello, world!")
-                    .padding()
-                Text("How is it going")
-                    .padding()
-            }.border(.red)
-            Spacer()
-        }.border(Color.black)
+        ZStack {
+            LinearGradient(colors: [.white,.green],startPoint: .top, endPoint: .bottom)
+            VStack{
+                Spacer()
+                Text("Acoustic Ambiance")
+                    .multilineTextAlignment(.center)
+                    .font(.system(size: 60))
+                    
+                Spacer()
+                HStack{
+                    Button(action:playSong) {
+                        Image(systemName: "play.circle")
+                            .foregroundColor(Color.black)
+                            .font(.system(size:90))
+                        
+                    }
+                    Button(action: pauseSong) {
+                        Image(systemName: "pause.circle")
+                            .foregroundColor(Color.black)
+                            .font(.system(size: 90))
+                    }
+                    
+                   
+                    
+                }.border(.red)
+                HStack{
+                    Text("Black Bird Acoustic ")
+                        .font(.system(size: 30))
+                        .padding()
+                        .onAppear() {
+                            let fileUrl = Bundle.main.url(forResource:"blackbird",withExtension:"m4a")
+                            myPlayer = try! AVAudioPlayer(contentsOf: fileUrl!)
+                            myPlayer?.prepareToPlay()
+                        }
+                   
+                }
+                Spacer()
+            }
+        }
+        
+    }
+    func playSong() {
+        myPlayer?.play()
+    }
+    func pauseSong() {
+        myPlayer?.pause()
     }
 }
 

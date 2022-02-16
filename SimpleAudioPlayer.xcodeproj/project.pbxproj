@@ -46,6 +46,7 @@
 		814CA6A027B5940600E8DD53 /* SimpleAudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAudioPlayerUITests.swift; sourceTree = "<group>"; };
 		814CA6A227B5940600E8DD53 /* SimpleAudioPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAudioPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		814CA6AF27B59DD100E8DD53 /* blackbird.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = blackbird.m4a; sourceTree = "<group>"; };
+		814CA6B127BC2F6800E8DD53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		814CA68427B593FE00E8DD53 /* SimpleAudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				814CA6B127BC2F6800E8DD53 /* Info.plist */,
 				814CA68527B593FE00E8DD53 /* SimpleAudioPlayerApp.swift */,
 				814CA68727B593FE00E8DD53 /* ContentView.swift */,
 				814CA6AF27B59DD100E8DD53 /* blackbird.m4a */,
@@ -426,9 +428,9 @@
 				DEVELOPMENT_TEAM = F5C4Y658FV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleAudioPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,9 +457,9 @@
 				DEVELOPMENT_TEAM = F5C4Y658FV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleAudioPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
