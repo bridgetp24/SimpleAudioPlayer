@@ -14,13 +14,16 @@ struct ContentView: View {
 
     var body: some View {
         ZStack {
-            LinearGradient(colors: [.white,.green],startPoint: .top, endPoint: .bottom)
+            LinearGradient(colors: [.white,.blue],startPoint: .top, endPoint: .bottom)
             VStack{
-                Spacer()
                 Text("Acoustic Ambiance")
                     .multilineTextAlignment(.center)
                     .font(.system(size: 60))
-                    
+                Image("BlackBirdGuitar")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .border(.black,width: 3)
+
                 Spacer()
                 HStack{
                     Button(action:playSong) {

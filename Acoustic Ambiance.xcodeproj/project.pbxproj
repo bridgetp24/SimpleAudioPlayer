@@ -35,14 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		814CA68227B593FE00E8DD53 /* SimpleAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		814CA68227B593FE00E8DD53 /* Acoustic Ambiance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acoustic Ambiance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		814CA68527B593FE00E8DD53 /* SimpleAudioPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAudioPlayerApp.swift; sourceTree = "<group>"; };
 		814CA68727B593FE00E8DD53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		814CA68927B5940600E8DD53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		814CA68C27B5940600E8DD53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		814CA69227B5940600E8DD53 /* SimpleAudioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAudioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		814CA69227B5940600E8DD53 /* Acoustic AmbianceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acoustic AmbianceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		814CA69627B5940600E8DD53 /* SimpleAudioPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAudioPlayerTests.swift; sourceTree = "<group>"; };
-		814CA69C27B5940600E8DD53 /* SimpleAudioPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAudioPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		814CA69C27B5940600E8DD53 /* Acoustic AmbianceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acoustic AmbianceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		814CA6A027B5940600E8DD53 /* SimpleAudioPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAudioPlayerUITests.swift; sourceTree = "<group>"; };
 		814CA6A227B5940600E8DD53 /* SimpleAudioPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAudioPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		814CA6AF27B59DD100E8DD53 /* blackbird.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = blackbird.m4a; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		814CA68327B593FE00E8DD53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				814CA68227B593FE00E8DD53 /* SimpleAudioPlayer.app */,
-				814CA69227B5940600E8DD53 /* SimpleAudioPlayerTests.xctest */,
-				814CA69C27B5940600E8DD53 /* SimpleAudioPlayerUITests.xctest */,
+				814CA68227B593FE00E8DD53 /* Acoustic Ambiance.app */,
+				814CA69227B5940600E8DD53 /* Acoustic AmbianceTests.xctest */,
+				814CA69C27B5940600E8DD53 /* Acoustic AmbianceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,9 +135,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		814CA68127B593FE00E8DD53 /* SimpleAudioPlayer */ = {
+		814CA68127B593FE00E8DD53 /* Acoustic Ambiance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 814CA6A627B5940600E8DD53 /* Build configuration list for PBXNativeTarget "SimpleAudioPlayer" */;
+			buildConfigurationList = 814CA6A627B5940600E8DD53 /* Build configuration list for PBXNativeTarget "Acoustic Ambiance" */;
 			buildPhases = (
 				814CA67E27B593FE00E8DD53 /* Sources */,
 				814CA67F27B593FE00E8DD53 /* Frameworks */,
@@ -147,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = SimpleAudioPlayer;
+			name = "Acoustic Ambiance";
 			productName = SimpleAudioPlayer;
-			productReference = 814CA68227B593FE00E8DD53 /* SimpleAudioPlayer.app */;
+			productReference = 814CA68227B593FE00E8DD53 /* Acoustic Ambiance.app */;
 			productType = "com.apple.product-type.application";
 		};
-		814CA69127B5940600E8DD53 /* SimpleAudioPlayerTests */ = {
+		814CA69127B5940600E8DD53 /* Acoustic AmbianceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 814CA6A927B5940600E8DD53 /* Build configuration list for PBXNativeTarget "SimpleAudioPlayerTests" */;
+			buildConfigurationList = 814CA6A927B5940600E8DD53 /* Build configuration list for PBXNativeTarget "Acoustic AmbianceTests" */;
 			buildPhases = (
 				814CA68E27B5940600E8DD53 /* Sources */,
 				814CA68F27B5940600E8DD53 /* Frameworks */,
@@ -165,14 +165,14 @@
 			dependencies = (
 				814CA69427B5940600E8DD53 /* PBXTargetDependency */,
 			);
-			name = SimpleAudioPlayerTests;
+			name = "Acoustic AmbianceTests";
 			productName = SimpleAudioPlayerTests;
-			productReference = 814CA69227B5940600E8DD53 /* SimpleAudioPlayerTests.xctest */;
+			productReference = 814CA69227B5940600E8DD53 /* Acoustic AmbianceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		814CA69B27B5940600E8DD53 /* SimpleAudioPlayerUITests */ = {
+		814CA69B27B5940600E8DD53 /* Acoustic AmbianceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 814CA6AC27B5940600E8DD53 /* Build configuration list for PBXNativeTarget "SimpleAudioPlayerUITests" */;
+			buildConfigurationList = 814CA6AC27B5940600E8DD53 /* Build configuration list for PBXNativeTarget "Acoustic AmbianceUITests" */;
 			buildPhases = (
 				814CA69827B5940600E8DD53 /* Sources */,
 				814CA69927B5940600E8DD53 /* Frameworks */,
@@ -183,9 +183,9 @@
 			dependencies = (
 				814CA69E27B5940600E8DD53 /* PBXTargetDependency */,
 			);
-			name = SimpleAudioPlayerUITests;
+			name = "Acoustic AmbianceUITests";
 			productName = SimpleAudioPlayerUITests;
-			productReference = 814CA69C27B5940600E8DD53 /* SimpleAudioPlayerUITests.xctest */;
+			productReference = 814CA69C27B5940600E8DD53 /* Acoustic AmbianceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -211,7 +211,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 814CA67D27B593FE00E8DD53 /* Build configuration list for PBXProject "SimpleAudioPlayer" */;
+			buildConfigurationList = 814CA67D27B593FE00E8DD53 /* Build configuration list for PBXProject "Acoustic Ambiance" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -224,9 +224,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				814CA68127B593FE00E8DD53 /* SimpleAudioPlayer */,
-				814CA69127B5940600E8DD53 /* SimpleAudioPlayerTests */,
-				814CA69B27B5940600E8DD53 /* SimpleAudioPlayerUITests */,
+				814CA68127B593FE00E8DD53 /* Acoustic Ambiance */,
+				814CA69127B5940600E8DD53 /* Acoustic AmbianceTests */,
+				814CA69B27B5940600E8DD53 /* Acoustic AmbianceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		814CA69427B5940600E8DD53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 814CA68127B593FE00E8DD53 /* SimpleAudioPlayer */;
+			target = 814CA68127B593FE00E8DD53 /* Acoustic Ambiance */;
 			targetProxy = 814CA69327B5940600E8DD53 /* PBXContainerItemProxy */;
 		};
 		814CA69E27B5940600E8DD53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 814CA68127B593FE00E8DD53 /* SimpleAudioPlayer */;
+			target = 814CA68127B593FE00E8DD53 /* Acoustic Ambiance */;
 			targetProxy = 814CA69D27B5940600E8DD53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,6 +429,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SimpleAudioPlayer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -458,6 +459,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SimpleAudioPlayer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -491,7 +493,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleAudioPlayer.app/SimpleAudioPlayer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acoustic Ambiance.app/Acoustic Ambiance";
 			};
 			name = Debug;
 		};
@@ -511,7 +513,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleAudioPlayer.app/SimpleAudioPlayer";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acoustic Ambiance.app/Acoustic Ambiance";
 			};
 			name = Release;
 		};
@@ -554,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		814CA67D27B593FE00E8DD53 /* Build configuration list for PBXProject "SimpleAudioPlayer" */ = {
+		814CA67D27B593FE00E8DD53 /* Build configuration list for PBXProject "Acoustic Ambiance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				814CA6A427B5940600E8DD53 /* Debug */,
@@ -563,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		814CA6A627B5940600E8DD53 /* Build configuration list for PBXNativeTarget "SimpleAudioPlayer" */ = {
+		814CA6A627B5940600E8DD53 /* Build configuration list for PBXNativeTarget "Acoustic Ambiance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				814CA6A727B5940600E8DD53 /* Debug */,
@@ -572,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		814CA6A927B5940600E8DD53 /* Build configuration list for PBXNativeTarget "SimpleAudioPlayerTests" */ = {
+		814CA6A927B5940600E8DD53 /* Build configuration list for PBXNativeTarget "Acoustic AmbianceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				814CA6AA27B5940600E8DD53 /* Debug */,
@@ -581,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		814CA6AC27B5940600E8DD53 /* Build configuration list for PBXNativeTarget "SimpleAudioPlayerUITests" */ = {
+		814CA6AC27B5940600E8DD53 /* Build configuration list for PBXNativeTarget "Acoustic AmbianceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				814CA6AD27B5940600E8DD53 /* Debug */,
