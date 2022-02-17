@@ -7,7 +7,7 @@
 
 import SwiftUI
 import AVKit
-/**This is a simple audio player application */
+/**This is a simple audio player application that plays an orginal recording of the song BlackBird on acoustic guitar*/
 
 struct ContentView: View {
     @State var myPlayer:AVAudioPlayer?
