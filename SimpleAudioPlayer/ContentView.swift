@@ -40,7 +40,7 @@ struct ContentView: View {
                     
                    
                     
-                }.border(.red)
+                }
                 HStack{
                     Text("Black Bird Acoustic ")
                         .font(.system(size: 30))
